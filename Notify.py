@@ -1,12 +1,3 @@
-'''from plyer import notification
-import time
-if __name__=="__main__":
-     notification.notify(
-        title = 'Please AAnchal..Bagh jao',
-        message = 'SUCCESS',
-        app_icon = 'C:\\Users\\Neet\\PycharmProjects\\GUI\\alarm.ico',
-        timeout = 10,
-     )'''
 from plyer import notification
 import time
 from tkinter import *
@@ -16,7 +7,7 @@ def add():
     notification.notify (
         title=(f"{entr_var.get()}"),
         message=f'{entr_var1.get()}',
-        app_icon='C:\\Users\\Neet\\PycharmProjects\\GUI\\alarm.ico',
+        app_icon='C:\\Users\\Neet\\PycharmProjects\\GUI\\alarm.ico',    #ADD OR DOWNLOAD YOUR ICO FILE,OTHERWISE REMOVE THIS LINE
         timeout= value
     )
 
